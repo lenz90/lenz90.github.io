@@ -1,0 +1,180 @@
+# Site
+repository: lenz90/lenz90.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Lizardo Enrique Mamani Sanchez
+title: Software Architect / Technical Leader
+email: lenz.90@gmail.com
+# email_title: Email (Email title override)
+phone: +51994313610
+# phone_title: Phone (Phone title override)
+website: https://lenz90.github.io/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: jekyllrb
+github_username:  lenz90
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: profile.php?id=100092308594376
+flickr_username: jekyll
+instagram_username: lenz.90
+linkedin_username: lenz90
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hola, soy Lizardo, un profesional en tecnología con amplia experiencia en diseño, desarrollo e integración de software; con capacidad de innovación, liderazgo y muy apasionado por la tecnología. 
+  
+  Conocimiento avanzado de arquitectura Cloud tanto en Azure y Google, así como en software con experiencia aplicada en DDD, Arquitectura Hexagonal, Patrones de diseños y Patrones de refactor(Clean Code, TDD).
+  
+  Conocimientos técnicos avanzados en sistemas de Microservicios reactivos (Java/RxJava3), Fullstack Angular con node JS, Kotlin/Flutter con firebase como móvil, Base de datos no relacionales Cassandra, Redis y Elastic Search, manejo de colas con Kafka, RabitMQ, PUB/SUB.
+
+content:
+  - title: Experiencia
+    layout: list
+    content:
+      - layout: right
+        title: BCP Banco de Credito del Perú
+        sub_title: Technical Lead / Software Architect
+        caption: Enero 2021 - Actualidad
+        link: https://www.viabcp.com/cuotealo
+        quote: >
+          Entidad financiera Peruana que forma parte del grupo credicorp.
+        description: | # this will include new lines to allow paragraphs
+          * Actualmente me encuentro liderando el equipo del Buy Now Pay Later del BCP "Cuotéalo"
+          
+          * Como el banco está en constante cambio a las nuevas tecnologías yo me encargo de liderar dichos cambios.
+          
+          * Me encargo de definir nuevas tecnologías, se realizó cambio de componentes importantes como las API Gateway, reestructuración de las taxonomías de las APIs, y se presentó un RoadMap para el refactor de todo el código légacy.
+          
+          * Realizo capacitaciones de arquitectura de software al equipo para que todos compartamos la misma visión a dónde queremos llegar.
+      - layout: right
+        title: Indigital / Agora Pay
+        sub_title: Backend Developer Senior
+        caption: Febrero 2020 - Enero 2021
+        link: https://app.agora.pe/agora-pay
+        quote: >
+          Compañía de Tecnología que forma parte de Intercorp Retail.
+        description: | # this will include new lines to allow paragraphs
+          * Participé en el mantenimiento de la aplicación Agora, tanto la parte mobile y Java 11
+          
+          * Participé en la definición de las nuevas funcionalidades del aplicativo, realizado en Kotlin y Swift junto a firebase, con microservicios en Java 11 utilizando eventos con google Pub/Sub.
+          
+          * Realicé capacitaciones de orientadas a la arquitectura de software como Patrones de diseño de Software.
+
+      - layout: right
+        title: Tata Consulting and Services
+        sub_title: Information Technology Analyst Senior
+        caption: Noviembre 2019 - Febrero 2020
+        link: https://www.tcs.com/
+        quote: >
+          Consultora India reconocida a nivel mundial, brinda servicios de Tecnología de la Información.
+        description: | # this will include new lines to allow paragraphs
+          * Participé en el mantenimiento de la banca personas de Interbank
+          
+          * Participé en la reconstrucción de la web a nuevas tecnología.
+          
+          * Realicé capacitaciones de orientadas a la arquitectura de software como TDD, Patrones de diseño.
+
+      - layout: right
+        title: NTT DATA
+        sub_title: Solutions Analyst Senior
+        caption: Noviembre 2017 - Septiembre 2019
+        link: https://www.nttdata.com/global/en/about-us
+        quote: >
+          Consultora Japonesa que se preocupa por la innovación, especializado es servicio de TI y negocio.
+        description: | # this will include new lines to allow paragraphs
+          * Participé en la construcción de los Microservicios para banca mayorista, basados en sistemas reactivos, fue realizado con Spring Boot, Java 8, RxJava, utilizando el patrón Event Driven Arquitect para la comunicación e integrándose con Apache Kafka.
+          
+          * Particié en la realización de las funcionalidades en el FrontEnd, con Angular 5, para el desarrollo de los componentes web.
+          
+          * Fui partícipe de la propuesta de solución de Arquitectura.
+          
+          * Se utilizó las soluciones que nos brinda Azure, como AKS, Api Management, además se realizó todo con base a las metodologías ágiles (Scrum).
+      - layout: right
+        title: Teamsoft
+        sub_title: Software Engineering Senior
+        caption: Diciembre 2013 - Agosto 2017
+        # link: Link to company (optional)
+        quote: >
+          Consultora Peruana que se especializa en brindar servicio de desarrollo de software.
+        description: | # this will include new lines to allow paragraphs
+          * Desarrollé una aplicación para desbloquear equipos de claro en Java.
+          
+          * Desarrollé una aplicación que pueda mediante probabilidades consultar un buró crediticio distinto.
+          
+          * Di soporte a las diferentes aplicaciones para el cliente Claro incluyendo a miclaro.com.pe que estaban realizadas en Java con WS SOAP, Service Bus y Oracle con SP.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
