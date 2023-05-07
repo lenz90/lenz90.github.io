@@ -161,12 +161,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           Como técnico en computación, obtuve conocimientos al desarrollo de software y las arquitecturas de las computadoras, destacando en los proyectos respecto al desarrollo de software.
 
-  - title: A Little More About Me
+  - title: Un poco mas acerca de mi
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Me encanta el **Running**, estoy en constante preparación para poder mejorar mis marcas propias. También me encanta **leer libros de tecnología**, últimamente leyendo **libros de liderazgo en el cambio constante**, y una de las cosas que más me encanta realizar es el voluntariado, soy **Bombero Voluntario** y me tomo un par de días a la semana para realizar dicho voluntariado. 
 
 # Footer
 footer_show_references: true
