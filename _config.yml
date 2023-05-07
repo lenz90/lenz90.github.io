@@ -133,17 +133,34 @@ content:
           * Desarrollé una aplicación que pueda mediante probabilidades consultar un buró crediticio distinto.
           
           * Di soporte a las diferentes aplicaciones para el cliente Claro incluyendo a miclaro.com.pe que estaban realizadas en Java con WS SOAP, Service Bus y Oracle con SP.
-  - title: Education
+  - title: Educación
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: UNIR Universidad de la Rioja (España - Online)
+        sub_title: Ingeniería Matemática y Computación
+        caption: 2021 - Actualidad
         quote: >
-          Short institution or course description (optional)
+          Universidad de España en línea destacando en su enseñanza y exigencia.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Como ingeniero en Matemática y Computación, me encuentro en el proceso del conocimiento mas profundo del computador como son algoritmos metaheurísticos, Inteligencia artificial, BlockChain, Optimización, Computación Cuántica; actualmente me encuentro realizando investigación sobre el CAOS y la aleatoriedad para la optimización de algoritmos utilizando computador cupantico.
+      - layout: top-right
+        title: Universidad Tecnológica del Perú
+        sub_title: Ingeniería Industrial
+        caption: 2015 - 2020
+        quote: >
+          Universidad Peruana especializada en la tecnología
+        description: | # this will include new lines to allow paragraphs
+          Como ingeniero industrial, obtuve conocimientos respecto a distintas áreas de una empresa, como las finanzas, marketing, calidad y procesos, la universidad me dio un enfoque tecnológico, la cuál agarré la pasión por la tecnología.
+      - layout: top-right
+        title: Instituto CIMA´s
+        sub_title: Computación e Informática
+        caption: 2007 - 2010
+        quote: >
+          Intituto Tecnológico especializado en las tecnologías de Información
+        description: | # this will include new lines to allow paragraphs
+          Como técnico en computación, obtuve conocimientos al desarrollo de software y las arquitecturas de las computadoras, destacando en los proyectos respecto al desarrollo de software.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
