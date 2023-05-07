@@ -143,7 +143,7 @@ content:
         quote: >
           Universidad de España en línea destacando en su enseñanza y exigencia.
         description: | # this will include new lines to allow paragraphs
-          Como ingeniero en Matemática y Computación, me encuentro en el proceso del conocimiento mas profundo del computador como son algoritmos metaheurísticos, Inteligencia artificial, BlockChain, Optimización, Computación Cuántica; actualmente me encuentro realizando investigación sobre el CAOS y la aleatoriedad para la optimización de algoritmos utilizando computador cupantico.
+          Como estudiante del Master de ingeniería en Matemática y Computación, me encuentro en el proceso del conocimiento más profundo del computador como son algoritmos metaheurísticos, Inteligencia artificial, BlockChain, Optimización, Computación Cuántica; actualmente me encuentro realizando investigación sobre el CAOS y la aleatoriedad para la optimización de algoritmos utilizando computador cuántico.
       - layout: top-right
         title: Universidad Tecnológica del Perú
         sub_title: Ingeniería Industrial
@@ -151,7 +151,7 @@ content:
         quote: >
           Universidad Peruana especializada en la tecnología
         description: | # this will include new lines to allow paragraphs
-          Como ingeniero industrial, obtuve conocimientos respecto a distintas áreas de una empresa, como las finanzas, marketing, calidad y procesos, la universidad me dio un enfoque tecnológico, la cuál agarré la pasión por la tecnología.
+          Como ingeniero industrial, obtuve conocimientos respecto a distintas áreas de una empresa, como las finanzas, marketing, calidad y procesos, la universidad me dio un enfoque tecnológico, incrementando mi pasión por la tecnología.
       - layout: top-right
         title: Instituto CIMA´s
         sub_title: Computación e Informática
