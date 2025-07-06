@@ -1,179 +1,149 @@
 # Site
 repository: lenz90/lenz90.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Lizardo Enrique Mamani Sanchez
-title: Software Architect / Technical Leader
+title: Software Architect | Technical Strategist | Backend Expert
 email: lenz.90@gmail.com
-# email_title: Email (Email title override)
 phone: +51994313610
-# phone_title: Phone (Phone title override)
 website: https://lenz90.github.io/
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  lenz90
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: profile.php?id=100092308594376
-flickr_username: jekyll
+github_username: lenz90
 instagram_username: lenz.90
 linkedin_username: lenz90
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Acerca de mi
+about_title: Acerca de mí
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hola, soy Lizardo, un profesional en tecnología con amplia experiencia en diseño, desarrollo e integración de software; con capacidad de innovación, liderazgo y muy apasionado por la tecnología. 
-  
-  Conocimiento avanzado de arquitectura Cloud tanto en Azure y Google, así como en software con experiencia aplicada en DDD, Arquitectura Hexagonal, Patrones de diseños y Patrones de refactor(Clean Code, TDD).
-  
-  Conocimientos técnicos avanzados en sistemas de Microservicios reactivos (Java/RxJava3), Fullstack Angular con node JS, Kotlin/Flutter con firebase como móvil, Base de datos no relacionales Cassandra, Redis y Elastic Search, manejo de colas con Kafka, RabitMQ, PUB/SUB.
+about_content: |
+  Profesional de tecnología con más de 15 años de experiencia en desarrollo backend, arquitectura de soluciones y liderazgo técnico, comprometido con la excelencia en ingeniería y la innovación continua.
+
+  He liderado refactorizaciones críticas y definido planes de migración tácticos y estratégicos, aplicando principios de arquitectura limpia, DDD, diseño orientado a eventos y TDD. Experiencia con tecnologías como Java, Spring Boot, Quarkus, Kafka, Redis, PostgreSQL, Angular, Dynatrace, HashiCorp Vault, y despliegues en Azure y GCP.
+
+  Integro herramientas de IA como JetBrains AI Assistant y automatización de diagramas con Mermaid. Uso Python cuando es necesario en tareas relacionadas con IA.
+
+  Promuevo la mejora continua con claridad técnica, colaboración y alineación entre arquitectura y objetivos de negocio.
+
+  Actualmente busco ampliar mi impacto en roles de liderazgo técnico y arquitectónico con visión a largo plazo.
 
 content:
   - title: Experiencia
     layout: list
     content:
       - layout: right
-        title: BCP Banco de Credito del Perú
+        title: Yape
+        sub_title: Backend Engineer
+        caption: Enero 2025 - Actualidad
+        link: https://www.yape.com.pe/
+        quote: >
+          Principal app de billetera digital en el Perú.
+        description: |
+          * Desarrollo de microservicios core en Java 11, con Redis, PostgreSQL, Kafka Streams, RxJava y Quarkus.
+          * Propuesta e implementación de documentación cíclica y automatizada.
+          * Uso de IA para generación de historias y diagramas con Mermaid.
+          * Formación en DDD, mejora de flujos de retrospectiva, y definición de usuarios con event storming.
+          * Propuestas para enfocarse más en el cliente que en roles específicos.
+
+      - layout: right
+        title: BCP Banco de Crédito del Perú
         sub_title: Technical Lead / Software Architect
-        caption: Enero 2021 - Actualidad
+        caption: Enero 2021 - Diciembre 2024
         link: https://www.viabcp.com/cuotealo
         quote: >
-          Entidad financiera Peruana que forma parte del grupo credicorp.
-        description: | # this will include new lines to allow paragraphs
-          * Actualmente me encuentro liderando el equipo del Buy Now Pay Later del BCP "Cuotéalo"
-          
-          * Como el banco está en constante cambio a las nuevas tecnologías yo me encargo de liderar dichos cambios.
-          
-          * Me encargo de definir nuevas tecnologías, se realizó cambio de componentes importantes como las API Gateway, reestructuración de las taxonomías de las APIs, y se presentó un RoadMap para el refactor de todo el código légacy.
-          
-          * Realizo capacitaciones de arquitectura de software al equipo para que todos compartamos la misma visión a dónde queremos llegar.
+          Entidad financiera líder en Perú, parte de Credicorp.
+        description: |
+          * Lideré el equipo técnico del producto Cuotéalo (BNPL).
+          * Propuse y apliqué estrategias de refactorización (parallel change, canary release) y prácticas de clean code y TDD.
+          * Reestructuración de APIs, definición de roadmap tecnológico.
+          * Formación continua en arquitectura de software y visión técnica compartida.
+
       - layout: right
         title: Indigital / Agora Pay
         sub_title: Backend Developer Senior
         caption: Febrero 2020 - Enero 2021
         link: https://app.agora.pe/agora-pay
         quote: >
-          Compañía de Tecnología que forma parte de Intercorp Retail.
-        description: | # this will include new lines to allow paragraphs
-          * Participé en el mantenimiento de la aplicación Agora, tanto la parte mobile y Java 11
-          
-          * Participé en la definición de las nuevas funcionalidades del aplicativo, realizado en Kotlin y Swift junto a firebase, con microservicios en Java 11 utilizando eventos con google Pub/Sub.
-          
-          * Realicé capacitaciones de orientadas a la arquitectura de software como Patrones de diseño de Software.
+          Parte del ecosistema Intercorp Retail.
+        description: |
+          * Mantenimiento y evolución del backend Java 11 y la app mobile (Kotlin/Swift).
+          * Microservicios con eventos vía Google Pub/Sub.
+          * Capacitaciones en patrones de diseño.
 
       - layout: right
-        title: Tata Consulting and Services
-        sub_title: Information Technology Analyst Senior
+        title: Tata Consultancy Services
+        sub_title: Senior IT Analyst
         caption: Noviembre 2019 - Febrero 2020
         link: https://www.tcs.com/
         quote: >
-          Consultora India reconocida a nivel mundial, brinda servicios de Tecnología de la Información.
-        description: | # this will include new lines to allow paragraphs
-          * Participé en el mantenimiento de la banca personas de Interbank
-          
-          * Participé en la reconstrucción de la web a nuevas tecnología.
-          
-          * Realicé capacitaciones de orientadas a la arquitectura de software como TDD, Patrones de diseño.
+          Consultora global en servicios de TI.
+        description: |
+          * Mantenimiento y modernización de banca personas para Interbank.
+          * Formación en TDD y patrones de arquitectura.
 
       - layout: right
         title: NTT DATA
         sub_title: Solutions Analyst Senior
         caption: Noviembre 2017 - Septiembre 2019
-        link: https://www.nttdata.com/global/en/about-us
+        link: https://www.nttdata.com/
         quote: >
-          Consultora Japonesa que se preocupa por la innovación, especializado es servicio de TI y negocio.
-        description: | # this will include new lines to allow paragraphs
-          * Participé en la construcción de los Microservicios para banca mayorista, basados en sistemas reactivos, fue realizado con Spring Boot, Java 8, RxJava, utilizando el patrón Event Driven Arquitect para la comunicación e integrándose con Apache Kafka.
-          
-          * Particié en la realización de las funcionalidades en el FrontEnd, con Angular 5, para el desarrollo de los componentes web.
-          
-          * Fui partícipe de la propuesta de solución de Arquitectura.
-          
-          * Se utilizó las soluciones que nos brinda Azure, como AKS, Api Management, además se realizó todo con base a las metodologías ágiles (Scrum).
+          Consultora global en servicios tecnológicos.
+        description: |
+          * Desarrollo de microservicios en Java 8 + RxJava + Kafka.
+          * Desarrollo frontend en Angular 5.
+          * Propuesta técnica de arquitectura.
+          * Uso de AKS, API Management y Scrum.
+
       - layout: right
-        title: Teamsoft
+        title: Teamsoft SAC
         sub_title: Software Engineering Senior
         caption: Diciembre 2013 - Agosto 2017
-        # link: Link to company (optional)
-        quote: >
-          Consultora Peruana que se especializa en brindar servicio de desarrollo de software.
-        description: | # this will include new lines to allow paragraphs
-          * Desarrollé una aplicación para desbloquear equipos de claro en Java.
-          
-          * Desarrollé una aplicación que pueda mediante probabilidades consultar un buró crediticio distinto.
-          
-          * Di soporte a las diferentes aplicaciones para el cliente Claro incluyendo a miclaro.com.pe que estaban realizadas en Java con WS SOAP, Service Bus y Oracle con SP.
+        description: |
+          * Desarrollo completo del portal de desbloqueo de equipos para Claro.
+          * Algoritmos de buró crediticio multi-proveedor.
+          * Soporte y mantenimiento en WebLogic 12c.
+
   - title: Educación
     layout: list
     content:
       - layout: top-right
-        title: UNIR Universidad de la Rioja (España - Online)
-        sub_title: Master en Ingeniería Matemática y Computación
-        caption: 2021 - Actualidad
+        title: UNIR - Universidad Internacional de La Rioja
+        sub_title: Máster en Ingeniería Matemática y Computación
+        caption: 2024 - En curso
         quote: >
-          Universidad de España en línea destacando en su enseñanza y exigencia.
-        description: | # this will include new lines to allow paragraphs
-          Como estudiante del Master de ingeniería en Matemática y Computación, me encuentro en el proceso del conocimiento más profundo del computador como son algoritmos metaheurísticos, Inteligencia artificial, BlockChain, Optimización, Computación Cuántica; actualmente me encuentro realizando investigación sobre el CAOS y la aleatoriedad para la optimización de algoritmos utilizando computador cuántico.
-      - layout: top-right
-        title: Universidad Tecnológica del Perú
-        sub_title: Ingeniería Industrial
-        caption: 2015 - 2020
-        quote: >
-          Universidad Peruana especializada en la tecnología
-        description: | # this will include new lines to allow paragraphs
-          Como ingeniero industrial, obtuve conocimientos respecto a distintas áreas de una empresa, como las finanzas, marketing, calidad y procesos, la universidad me dio un enfoque tecnológico, incrementando mi pasión por la tecnología.
-      - layout: top-right
-        title: Instituto CIMA´s
-        sub_title: Computación e Informática
-        caption: 2007 - 2010
-        quote: >
-          Intituto Tecnológico especializado en las tecnologías de Información
-        description: | # this will include new lines to allow paragraphs
-          Como técnico en computación, obtuve conocimientos al desarrollo de software y las arquitecturas de las computadoras, destacando en los proyectos respecto al desarrollo de software.
+          Universidad online de España.
+        description: |
+          Investigación en algoritmos ACO con refuerzo probabilístico y aleatoriedad para evitar sesgos. En fase final de tesis.
 
-  - title: Un poco mas acerca de mi
+      - layout: top-right
+        title: Universidad Tecnológica del Perú (UTP)
+        sub_title: Bachiller en Ingeniería Industrial
+        caption: 2015 - 2020
+        description: |
+          Enfoque en procesos, calidad, finanzas y visión tecnológica aplicada.
+
+      - layout: top-right
+        title: Instituto CIMA's
+        sub_title: Técnico en Computación e Informática
+        caption: 2007 - 2010
+        description: |
+          Bases sólidas en desarrollo de software y arquitectura de computadoras.
+
+  - title: Más sobre mí
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Me encanta el **Running**, estoy en constante preparación para poder mejorar mis marcas propias. También me encanta **leer libros de tecnología**, últimamente leyendo **libros de liderazgo en el cambio constante**, y una de las cosas que más me encanta realizar es el voluntariado, soy **Bombero Voluntario** y me tomo un par de días a la semana para realizar dicho voluntariado. 
+    content: |
+      Me apasiona el running, los libros de tecnología y el voluntariado. Soy Bombero Voluntario en Perú. Siempre en constante búsqueda de mejora y servicio.
 
 # Footer
 footer_show_references: false
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
@@ -192,4 +162,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
