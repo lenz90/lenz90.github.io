@@ -45,11 +45,11 @@ content:
         quote: >
           Principal app de billetera digital en el Perú.
         description: |
-          * Desarrollo de microservicios core en Java 11, con Redis, PostgreSQL, Kafka Streams, RxJava y Quarkus.
-          * Propuesta e implementación de documentación cíclica y automatizada.
-          * Uso de IA para generación de historias y diagramas con Mermaid.
-          * Formación en DDD, mejora de flujos de retrospectiva, y definición de usuarios con event storming.
-          * Propuestas para enfocarse más en el cliente que en roles específicos.
+          * Desarrollo de microservicios core en Java 17 y 21, con Redis, PostgreSQL, Kafka Streams, RxJava, Quarkus y Lombok.
+          * Participación en integraciones frontend con TypeScript.
+          * Automatización de documentación técnica y diagramas con Mermaid.
+          * Formación interna sobre DDD, Clean Code, retrospectivas técnicas y event storming centrado en el usuario.
+          * Propuestas de mejora enfocadas en el usuario final más que en el proceso interno.
 
       - layout: right
         title: BCP Banco de Crédito del Perú
@@ -60,45 +60,24 @@ content:
           Entidad financiera líder en Perú, parte de Credicorp.
         description: |
           * Lideré el equipo técnico del producto Cuotéalo (BNPL).
-          * Propuse y apliqué estrategias de refactorización (parallel change, canary release) y prácticas de clean code y TDD.
-          * Reestructuración de APIs, definición de roadmap tecnológico.
-          * Formación continua en arquitectura de software y visión técnica compartida.
+          * Refactorización de sistemas legacy aplicando Arquitectura Hexagonal, Clean Code, Parallel Change y TDD.
+          * Rediseño de APIs, definición de roadmap tecnológico.
+          * Capacitaciones constantes en arquitectura moderna, DDD y patrones de integración.
+          * Integraciones frontend con componentes en React.
 
       - layout: right
         title: Indigital / Agora Pay
         sub_title: Backend Developer Senior
-        caption: Febrero 2020 - Enero 2021
+        caption: Noviembre 2017 - Enero 2021
         link: https://app.agora.pe/agora-pay
         quote: >
           Parte del ecosistema Intercorp Retail.
         description: |
-          * Mantenimiento y evolución del backend Java 11 y la app mobile (Kotlin/Swift).
-          * Microservicios con eventos vía Google Pub/Sub.
-          * Capacitaciones en patrones de diseño.
-
-      - layout: right
-        title: Tata Consultancy Services
-        sub_title: Senior IT Analyst
-        caption: Noviembre 2019 - Febrero 2020
-        link: https://www.tcs.com/
-        quote: >
-          Consultora global en servicios de TI.
-        description: |
-          * Mantenimiento y modernización de banca personas para Interbank.
-          * Formación en TDD y patrones de arquitectura.
-
-      - layout: right
-        title: NTT DATA
-        sub_title: Solutions Analyst Senior
-        caption: Noviembre 2017 - Septiembre 2019
-        link: https://www.nttdata.com/
-        quote: >
-          Consultora global en servicios tecnológicos.
-        description: |
-          * Desarrollo de microservicios en Java 8 + RxJava + Kafka.
-          * Desarrollo frontend en Angular 5.
-          * Propuesta técnica de arquitectura.
-          * Uso de AKS, API Management y Scrum.
+          * Desarrollo de microservicios reactivos en Spring Boot, RxJava y Kafka.
+          * Desarrollo frontend en Angular 5 e integración cloud con Azure (AKS, API Management).
+          * Backend mobile con Kotlin/Swift, eventos con Google Pub/Sub y despliegue en AWS.
+          * Participación activa en infraestructura con Azure DevOps, Docker y Kubernetes.
+          * Capacitaciones técnicas al equipo sobre patrones de diseño y TDD.
 
       - layout: right
         title: Teamsoft SAC
@@ -106,8 +85,8 @@ content:
         caption: Diciembre 2013 - Agosto 2017
         description: |
           * Desarrollo completo del portal de desbloqueo de equipos para Claro.
-          * Algoritmos de buró crediticio multi-proveedor.
-          * Soporte y mantenimiento en WebLogic 12c.
+          * Algoritmos estadísticos para selección de proveedor de buró crediticio.
+          * Mantenimiento de servicios distribuidos sobre WebLogic 12c.
 
   - title: Educación
     layout: list
@@ -119,26 +98,26 @@ content:
         quote: >
           Universidad online de España.
         description: |
-          Investigación en algoritmos ACO con refuerzo probabilístico y aleatoriedad para evitar sesgos. En fase final de tesis.
+          Investigación en ACO con refuerzo probabilístico para reducir sesgo en la toma de decisiones. Tesis en etapa final.
 
       - layout: top-right
         title: Universidad Tecnológica del Perú (UTP)
         sub_title: Bachiller en Ingeniería Industrial
         caption: 2015 - 2020
         description: |
-          Enfoque en procesos, calidad, finanzas y visión tecnológica aplicada.
+          Enfoque en procesos, calidad, finanzas y visión tecnológica aplicada a la mejora continua.
 
       - layout: top-right
         title: Instituto CIMA's
         sub_title: Técnico en Computación e Informática
         caption: 2007 - 2010
         description: |
-          Bases sólidas en desarrollo de software y arquitectura de computadoras.
+          Fundamentos de arquitectura de computadoras, lógica, y desarrollo de software desde los cimientos.
 
   - title: Más sobre mí
     layout: text
     content: |
-      Me apasiona el running, los libros de tecnología y el voluntariado. Soy Bombero Voluntario en Perú. Siempre en constante búsqueda de mejora y servicio.
+      Apasionado del running, la lectura de libros técnicos y el voluntariado. Actualmente soy Bombero Voluntario. En constante evolución personal y profesional.
 
 # Footer
 footer_show_references: false
