@@ -25,7 +25,9 @@ about_profile_image: images/profile.jpg
 about_content: |
   Profesional de tecnología con más de 15 años de experiencia en desarrollo backend, arquitectura de soluciones y liderazgo técnico, comprometido con la excelencia en ingeniería y la innovación continua.
 
-  He liderado refactorizaciones críticas y definido planes de migración tácticos y estratégicos, aplicando principios de arquitectura limpia, DDD, diseño orientado a eventos y TDD. Experiencia con tecnologías como Java, Spring Boot, Quarkus, Kafka, Redis, PostgreSQL, Angular, Dynatrace, HashiCorp Vault, y despliegues en Azure y GCP.
+  He liderado refactorizaciones críticas y definido planes de migración tácticos y estratégicos, aplicando principios de arquitectura limpia, DDD, arquitectura hexagonal, diseño orientado a eventos, TDD, JUnit y Mockito.
+
+  Experiencia con tecnologías como Java (11, 17, 21), Spring Boot, Quarkus, Kafka, Redis, PostgreSQL, Angular, React, TypeScript, Dynatrace, HashiCorp Vault, y despliegues en Azure, AWS, GCP y contenedores Docker. Uso extensivo de herramientas como Lombok, GitHub Actions y pipelines de CI/CD.
 
   Integro herramientas de IA como JetBrains AI Assistant y automatización de diagramas con Mermaid. Uso Python cuando es necesario en tareas relacionadas con IA.
 
@@ -48,8 +50,8 @@ content:
           * Desarrollo de microservicios core en Java 17 y 21, con Redis, PostgreSQL, Kafka Streams, RxJava, Quarkus y Lombok.
           * Participación en integraciones frontend con TypeScript.
           * Automatización de documentación técnica y diagramas con Mermaid.
-          * Formación interna sobre DDD, Clean Code, retrospectivas técnicas y event storming centrado en el usuario.
-          * Propuestas de mejora enfocadas en el usuario final más que en el proceso interno.
+          * Formación en DDD, arquitectura hexagonal, Clean Code, retrospectivas técnicas, JUnit y Mockito.
+          * Propuestas de mejora centradas en el usuario final y uso de IA para acelerar diseño y documentación.
 
       - layout: right
         title: BCP Banco de Crédito del Perú
@@ -62,8 +64,8 @@ content:
           * Lideré el equipo técnico del producto Cuotéalo (BNPL).
           * Refactorización de sistemas legacy aplicando Arquitectura Hexagonal, Clean Code, Parallel Change y TDD.
           * Rediseño de APIs, definición de roadmap tecnológico.
-          * Capacitaciones constantes en arquitectura moderna, DDD y patrones de integración.
-          * Integraciones frontend con componentes en React.
+          * Capacitaciones en DDD, arquitectura moderna, JUnit, Mockito y patrones de integración.
+          * Participación en integraciones frontend con componentes en React.
 
       - layout: right
         title: Indigital / Agora Pay
@@ -73,11 +75,11 @@ content:
         quote: >
           Parte del ecosistema Intercorp Retail.
         description: |
-          * Desarrollo de microservicios reactivos en Spring Boot, RxJava y Kafka.
-          * Desarrollo frontend en Angular 5 e integración cloud con Azure (AKS, API Management).
+          * Desarrollo de microservicios reactivos en Spring Boot, RxJava, Kafka, arquitectura hexagonal y uso de GitHub Actions.
+          * Desarrollo frontend en Angular 5 e integración con Azure (AKS, API Management).
           * Backend mobile con Kotlin/Swift, eventos con Google Pub/Sub y despliegue en AWS.
           * Participación activa en infraestructura con Azure DevOps, Docker y Kubernetes.
-          * Capacitaciones técnicas al equipo sobre patrones de diseño y TDD.
+          * Capacitaciones técnicas al equipo sobre patrones de diseño, TDD, Clean Code y principios SOLID.
 
       - layout: right
         title: Teamsoft SAC
