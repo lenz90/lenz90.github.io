@@ -6,7 +6,7 @@ version: 2
 
 # Personal info
 name: Lizardo Enrique Mamani Sanchez
-title: Software Architect | Technical Strategist | Backend Expert
+title: Sr. Java Developer | Technical Senior
 email: lenz.90@gmail.com
 phone: +51994313610
 website: https://lenz90.github.io/
@@ -23,17 +23,10 @@ linkedin_username: lenz90
 about_title: Acerca de mí
 about_profile_image: images/profile.jpg
 about_content: |
-  Profesional de tecnología con más de 15 años de experiencia en desarrollo backend, arquitectura de soluciones y liderazgo técnico, comprometido con la excelencia en ingeniería y la innovación continua.
-
-  He liderado refactorizaciones críticas y definido planes de migración tácticos y estratégicos, aplicando principios de arquitectura limpia, DDD, arquitectura hexagonal, diseño orientado a eventos, TDD, JUnit y Mockito.
-
-  Experiencia con tecnologías como Java (17, 21), Spring Boot, Quarkus, Kafka, Redis, PostgreSQL, Angular, React, TypeScript, Dynatrace, HashiCorp Vault, y despliegues en Azure, AWS, GCP y contenedores Docker. Uso extensivo de herramientas como Lombok, GitHub Actions y pipelines de CI/CD.
-
-  Integro herramientas de IA como JetBrains AI Assistant y automatización de diagramas con Mermaid. Uso Python cuando es necesario en tareas relacionadas con IA.
-
-  Promuevo la mejora continua con claridad técnica, colaboración y alineación entre arquitectura y objetivos de negocio.
-
-  Actualmente busco ampliar mi impacto en roles de liderazgo técnico y arquitectónico con visión a largo plazo.
+  Sr. Java Developer con sólida experiencia en desarrollo backend, microservicios y arquitectura de soluciones.
+  Amplia trayectoria en el sector financiero, liderando proyectos en banca digital y pagos electrónicos.
+  Comprometido con la innovación, la mejora continua y la integración de nuevas tecnologías para generar valor
+  al negocio y al usuario final.
 
 content:
   - title: Experiencia
@@ -42,61 +35,62 @@ content:
       - layout: right
         title: Yape
         sub_title: Backend Engineer
-        caption: Enero 2025 - Actualidad
+        caption: Ene. 2025 – Actualidad
         link: https://www.yape.com.pe/
         quote: >
-          Principal app de billetera digital en el Perú.
+          Principal aplicación de billetera digital en Perú, parte del BCP.
         description: |
           * Desarrollo de microservicios core en Java 17 y 21, con Redis, PostgreSQL, Kafka Streams, RxJava, Quarkus y Lombok.
-          * Participación en integraciones frontend con TypeScript.
+          * Integraciones frontend con TypeScript.
           * Automatización de documentación técnica y diagramas con Mermaid.
-          * Formación en DDD, arquitectura hexagonal, Clean Code, retrospectivas técnicas, JUnit y Mockito.
-          * Propuestas de mejora centradas en el usuario final y uso de IA para acelerar diseño y documentación.
+          * Formación y aplicación en DDD, Arquitectura Hexagonal, Clean Code, retrospectivas técnicas, JUnit y Mockito.
+          * Propuestas de mejora centradas en el usuario y exploración de IA para acelerar documentación y diseño.
 
       - layout: right
-        title: BCP Banco de Crédito del Perú
+        title: Banco de Crédito del Perú (BCP)
         sub_title: Technical Lead / Software Architect
-        caption: Enero 2021 - Diciembre 2024
+        caption: Ene. 2021 – Dic. 2024
         link: https://www.viabcp.com/cuotealo
         quote: >
           Entidad financiera líder en Perú, parte de Credicorp.
         description: |
           * Lideré el equipo técnico del producto Cuotéalo (BNPL).
           * Refactorización de sistemas legacy aplicando Arquitectura Hexagonal, Clean Code, Parallel Change y TDD.
-          * Rediseño de APIs, definición de roadmap tecnológico.
-          * Capacitaciones en DDD, arquitectura moderna, JUnit, Mockito y patrones de integración.
+          * Rediseño de APIs y definición de roadmap tecnológico.
+          * Capacitaciones al equipo en DDD, arquitectura moderna, JUnit, Mockito y patrones de integración.
           * Participación en integraciones frontend con componentes en React.
 
       - layout: right
         title: Indigital / Agora Pay
         sub_title: Backend Developer Senior
-        caption: Noviembre 2017 - Enero 2021
+        caption: Nov. 2017 – Ene. 2021
         link: https://app.agora.pe/agora-pay
         quote: >
           Parte del ecosistema Intercorp Retail.
         description: |
-          * Desarrollo de microservicios reactivos en Spring Boot, RxJava, Kafka, arquitectura hexagonal y uso de GitHub Actions.
+          * Desarrollo de microservicios reactivos con Spring Boot, RxJava, Kafka y Arquitectura Hexagonal.
+          * Implementación de CI/CD con GitHub Actions.
           * Desarrollo frontend en Angular 5 e integración con Azure (AKS, API Management).
-          * Backend mobile con Kotlin/Swift, eventos con Google Pub/Sub y despliegue en AWS.
+          * Backend móvil con Kotlin/Swift y eventos con Google Pub/Sub en AWS.
           * Participación activa en infraestructura con Azure DevOps, Docker y Kubernetes.
-          * Capacitaciones técnicas al equipo sobre patrones de diseño, TDD, Clean Code y principios SOLID.
+          * Capacitaciones técnicas al equipo en patrones de diseño, TDD, Clean Code y principios SOLID.
 
       - layout: right
         title: Teamsoft SAC
         sub_title: Software Engineering Senior
-        caption: Diciembre 2013 - Agosto 2017
+        caption: Dic. 2013 – Ago. 2017
         description: |
           * Desarrollo completo del portal de desbloqueo de equipos para Claro.
-          * Algoritmos estadísticos para selección de proveedor de buró crediticio.
+          * Implementación de algoritmos estadísticos para selección de proveedor de buró crediticio.
           * Mantenimiento de servicios distribuidos sobre WebLogic 12c.
 
   - title: Educación
     layout: list
     content:
       - layout: top-right
-        title: UNIR - Universidad Internacional de La Rioja
+        title: UNIR – Universidad Internacional de La Rioja
         sub_title: Máster en Ingeniería Matemática y Computación
-        caption: 2024 - En curso
+        caption: 2024 – En curso
         quote: >
           Universidad online de España.
         description: |
@@ -105,16 +99,16 @@ content:
       - layout: top-right
         title: Universidad Tecnológica del Perú (UTP)
         sub_title: Bachiller en Ingeniería Industrial
-        caption: 2015 - 2020
+        caption: 2015 – 2020
         description: |
           Enfoque en procesos, calidad, finanzas y visión tecnológica aplicada a la mejora continua.
 
       - layout: top-right
         title: Instituto CIMA's
         sub_title: Técnico en Computación e Informática
-        caption: 2007 - 2010
+        caption: 2007 – 2010
         description: |
-          Fundamentos de arquitectura de computadoras, lógica, y desarrollo de software desde los cimientos.
+          Fundamentos de arquitectura de computadoras, lógica y desarrollo de software desde los cimientos.
 
   - title: Más sobre mí
     layout: text
