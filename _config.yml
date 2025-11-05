@@ -6,7 +6,7 @@ version: 2
 
 # Personal info
 name: Lizardo Enrique Mamani Sanchez
-title: Sr. Java Developer | Technical Senior
+title: Software Tech Lead | Cloud & AI Innovation | MSc Engineering
 email: lenz.90@gmail.com
 phone: +51994313610
 website: https://lenz90.github.io/
@@ -20,100 +20,115 @@ instagram_username: lenz.90
 linkedin_username: lenz90
 
 # About Section
-about_title: Acerca de mí
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Sr. Java Developer con sólida experiencia en desarrollo backend, microservicios y arquitectura de soluciones.
-  Amplia trayectoria en el sector financiero, liderando proyectos en banca digital y pagos electrónicos.
-  Comprometido con la innovación, la mejora continua y la integración de nuevas tecnologías para generar valor
-  al negocio y al usuario final.
+  Software engineer specialized in cloud architecture, microservices, and strategic software design. 
+  Focused on simplicity, quality, and continuous improvement, applying modern principles such as DDD, TDD, and Hexagonal Architecture. 
+  Passionate about innovation, AI, and building solutions that create technical impact and business value.
 
 content:
-  - title: Experiencia
+  - title: Experience
     layout: list
     content:
       - layout: right
+        title: K-LAGAN (Consultant for AXA)
+        sub_title: Software Java Engineer – Contractor
+        caption: Oct. 2025 – Present
+        link: https://www.klagan.com/
+        quote: >
+          International technology consulting firm with presence across Europe and projects in the insurance and financial sectors.
+        description: |
+          * Providing specialized consulting services for AXA Group, focused on backend development with Java and cloud architecture.
+          * Implementation of microservices, APIs, and CI/CD pipeline optimization in Azure environments.
+          * Contributing to technical documentation initiatives and continuous improvement of development standards.
+          * Collaborating with international teams under agile methodology.
+          * Professional services engagement under contractor model.
+
+      - layout: right
         title: Yape
         sub_title: Backend Engineer
-        caption: Ene. 2025 – Actualidad
+        caption: Jan. 2025 – Sep. 2025
         link: https://www.yape.com.pe/
         quote: >
-          Principal aplicación de billetera digital en Perú, parte del BCP.
+          Leading digital wallet application in Peru, part of BCP.
         description: |
-          * Desarrollo de microservicios core en Java 17 y 21, con Redis, PostgreSQL, Kafka Streams, RxJava, Quarkus y Lombok.
-          * Integraciones frontend con TypeScript.
-          * Automatización de documentación técnica y diagramas con Mermaid.
-          * Formación y aplicación en DDD, Arquitectura Hexagonal, Clean Code, retrospectivas técnicas, JUnit y Mockito.
-          * Propuestas de mejora centradas en el usuario y exploración de IA para acelerar documentación y diseño.
+          * Core microservice development in Java 17 and 21 using Redis, PostgreSQL, Kafka Streams, RxJava, Quarkus, and Lombok.
+          * Frontend integrations with TypeScript.
+          * Automated technical documentation and architecture diagrams using Mermaid.
+          * Applied DDD, Hexagonal Architecture, Clean Code, and TDD for maintainable and testable services.
+          * Proposed user-centered improvements and explored AI tools to accelerate documentation and design processes.
 
       - layout: right
         title: Banco de Crédito del Perú (BCP)
         sub_title: Technical Lead / Software Architect
-        caption: Ene. 2021 – Dic. 2024
+        caption: Jan. 2021 – Dec. 2024
         link: https://www.viabcp.com/cuotealo
         quote: >
-          Entidad financiera líder en Perú, parte de Credicorp.
+          Leading financial institution in Peru, part of Credicorp Group.
         description: |
-          * Lideré el equipo técnico del producto Cuotéalo (BNPL).
-          * Refactorización de sistemas legacy aplicando Arquitectura Hexagonal, Clean Code, Parallel Change y TDD.
-          * Rediseño de APIs y definición de roadmap tecnológico.
-          * Capacitaciones al equipo en DDD, arquitectura moderna, JUnit, Mockito y patrones de integración.
-          * Participación en integraciones frontend con componentes en React.
+          * Led the technical team of the BNPL product “Cuotéalo”.
+          * Refactored legacy systems applying Hexagonal Architecture, Clean Code, Parallel Change, and TDD.
+          * Redesigned APIs and defined the technology roadmap.
+          * Delivered technical training sessions in DDD, modern architecture, JUnit, Mockito, and integration patterns.
+          * Supported frontend integrations with React components.
 
       - layout: right
         title: Indigital / Agora Pay
-        sub_title: Backend Developer Senior
-        caption: Nov. 2017 – Ene. 2021
+        sub_title: Senior Backend Developer
+        caption: Nov. 2017 – Jan. 2021
         link: https://app.agora.pe/agora-pay
         quote: >
-          Parte del ecosistema Intercorp Retail.
+          Part of the Intercorp Retail ecosystem.
         description: |
-          * Desarrollo de microservicios reactivos con Spring Boot, RxJava, Kafka y Arquitectura Hexagonal.
-          * Implementación de CI/CD con GitHub Actions.
-          * Desarrollo frontend en Angular 5 e integración con Azure (AKS, API Management).
-          * Backend móvil con Kotlin/Swift y eventos con Google Pub/Sub en AWS.
-          * Participación activa en infraestructura con Azure DevOps, Docker y Kubernetes.
-          * Capacitaciones técnicas al equipo en patrones de diseño, TDD, Clean Code y principios SOLID.
+          * Developed reactive microservices using Spring Boot, RxJava, Kafka, and Hexagonal Architecture.
+          * Implemented CI/CD with GitHub Actions.
+          * Frontend development with Angular 5 and Azure integrations (AKS, API Management).
+          * Mobile backend with Kotlin/Swift and event-based integration using Google Pub/Sub on AWS.
+          * Hands-on infrastructure experience with Azure DevOps, Docker, and Kubernetes.
+          * Provided technical mentorship in design patterns, TDD, Clean Code, and SOLID principles.
 
       - layout: right
         title: Teamsoft SAC
-        sub_title: Software Engineering Senior
-        caption: Dic. 2013 – Ago. 2017
+        sub_title: Senior Software Engineer
+        caption: Dec. 2013 – Aug. 2017
         description: |
-          * Desarrollo completo del portal de desbloqueo de equipos para Claro.
-          * Implementación de algoritmos estadísticos para selección de proveedor de buró crediticio.
-          * Mantenimiento de servicios distribuidos sobre WebLogic 12c.
+          * Full-stack development of the mobile device unlock portal for Claro.
+          * Designed and implemented statistical algorithms for credit bureau provider selection.
+          * Maintained distributed services on WebLogic 12c.
 
-  - title: Educación
+  - title: Education
     layout: list
     content:
       - layout: top-right
         title: UNIR – Universidad Internacional de La Rioja
-        sub_title: Máster en Ingeniería Matemática y Computación
-        caption: 2024 – En curso
+        sub_title: Master’s in Mathematical Engineering and Computer Science
+        caption: 2024 – 2025
         quote: >
-          Universidad online de España.
+          Online university based in Spain with international presence.
         description: |
-          Investigación en ACO con refuerzo probabilístico para reducir sesgo en la toma de decisiones. Tesis en etapa final.
+          Final thesis on optimizing the Ant Colony Optimization (ACO) algorithm through local probabilistic reinforcement to improve decision-making.
 
       - layout: top-right
         title: Universidad Tecnológica del Perú (UTP)
-        sub_title: Bachiller en Ingeniería Industrial
+        sub_title: Bachelor’s in Industrial Engineering
         caption: 2015 – 2020
         description: |
-          Enfoque en procesos, calidad, finanzas y visión tecnológica aplicada a la mejora continua.
+          Focused on process improvement, quality, finance, and the application of technology for operational excellence.
 
       - layout: top-right
         title: Instituto CIMA's
-        sub_title: Técnico en Computación e Informática
+        sub_title: Technician in Computer Science
         caption: 2007 – 2010
         description: |
-          Fundamentos de arquitectura de computadoras, lógica y desarrollo de software desde los cimientos.
+          Foundations of computer architecture, logic, and software development from the ground up.
 
-  - title: Más sobre mí
+  - title: More About Me
     layout: text
     content: |
-      Apasionado del running, la lectura de libros técnicos y el voluntariado. Actualmente soy Bombero Voluntario. En constante evolución personal y profesional.
+      Passionate about technology, continuous learning, and innovation. 
+      Volunteer firefighter in Peru, committed to teamwork, discipline, and personal growth. 
+      Enjoy running, reading technical books, and tackling challenges that combine creativity and logic.
 
 # Footer
 footer_show_references: false
