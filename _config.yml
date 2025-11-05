@@ -33,7 +33,7 @@ content:
     content:
       - layout: right
         title: K-LAGAN (Consultant for AXA)
-        sub_title: Software Java Engineer – Contractor
+        sub_title: Senior Java Software Engineer – Contractor
         caption: Oct. 2025 – Present
         link: https://www.klagan.com/
         quote: >
@@ -47,12 +47,13 @@ content:
 
       - layout: right
         title: Yape
-        sub_title: Backend Engineer
+        sub_title: Senior Lead Software Engineer
         caption: Jan. 2025 – Sep. 2025
         link: https://www.yape.com.pe/
         quote: >
           Leading digital wallet application in Peru, part of BCP.
         description: |
+          * Led technical initiatives across core services, mentoring developers and driving engineering best practices.
           * Core microservice development in Java 17 and 21 using Redis, PostgreSQL, Kafka Streams, RxJava, Quarkus, and Lombok.
           * Frontend integrations with TypeScript.
           * Automated technical documentation and architecture diagrams using Mermaid.
@@ -101,11 +102,11 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: UNIR – Universidad Internacional de La Rioja
+        title: Universidad Internacional de La Rioja (UNIR)
         sub_title: Master’s in Mathematical Engineering and Computer Science
         caption: 2024 – 2025
         quote: >
-          Online university based in Spain with international presence.
+          University with European recognition.
         description: |
           Final thesis on optimizing the Ant Colony Optimization (ACO) algorithm through local probabilistic reinforcement to improve decision-making.
 
@@ -113,6 +114,8 @@ content:
         title: Universidad Tecnológica del Perú (UTP)
         sub_title: Bachelor’s in Industrial Engineering
         caption: 2015 – 2020
+        quote: >
+          Private university focused on applied engineering and innovation.
         description: |
           Focused on process improvement, quality, finance, and the application of technology for operational excellence.
 
@@ -120,6 +123,8 @@ content:
         title: Instituto CIMA's
         sub_title: Technician in Computer Science
         caption: 2007 – 2010
+        quote: >
+          Technical institute specialized in computing and information systems.
         description: |
           Foundations of computer architecture, logic, and software development from the ground up.
 
@@ -139,7 +144,9 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 exclude : [
   "Gemfile",
